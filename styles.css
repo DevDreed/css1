@@ -8,6 +8,8 @@ body {
 
 .title {
   border-color: green;
+  text-align: center;
+  font-size: 3.5em;
 }
 
 .image {
@@ -16,13 +18,18 @@ body {
 
 .text1 {
   border-color: red;
+  float: left;
+  width: 45%;
 }
 
 .text2 {
   border-color: orange;
+  float: right;
+  width: 45%;
 }
 
 .footer {
+  clear: both;
   border-color: aqua;
 }
 
@@ -38,6 +45,14 @@ body {
   float: left;
   margin: 10px 15px 0 15px;
   cursor: pointer;
+}
+
+.img-box {
+  width: 30%;
+  height: 50px;
+  margin-right: 2%;
+  border: 2px dashed lime;
+  display: inline-block;
 }
 /*.new-border2 {
   border-width: 2px;
